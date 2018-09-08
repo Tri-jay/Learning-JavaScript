@@ -1,7 +1,99 @@
 <html>
-    <head></head>
-    <body>
-        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-        <script src="./main.js"></script>
-    </body>
+
+<head>
+
+    <!-- 
+            Including CSS
+            Here is how we include css files
+            <link href="[file location here]" />
+        
+            Here we are including our fav bootstrap theme from bootswatch
+         -->
+    <link rel="stylesheet" href="https://bootswatch.com/4/minty/bootstrap.min.css" />
+</head>
+
+<body>
+
+
+    <!-- Day 9
+            Tying it all together
+
+            So lets start by including bootstraps library.
+            To find out how to do that lets go to bootstraps website
+            -->
+
+    <!-- Here are are going to make some bootstrap items in HTML -->
+
+    <section class="row">
+        <!-- Let's start by making a card -->
+        <!-- We give it a width with "col-4" a width of 4 columns -->
+        <article class="col-4">
+
+            <!-- It needs a class of "card" -->
+            <div class="card">
+
+                <!-- Let's add a "card-img-top" or image cap -->
+                <img class="card-img-top" src="https://www.placecage.com/300/200" />
+
+                <!-- Let's make a "card-header" -->
+                <h3 class="card-header">Go back to your room</h3>
+
+                <!-- Let's mark the "card-body" content -->
+                <div class="card-body">
+                    <p>I go where I want.</p>
+                </div>
+
+            </div>
+
+        </article>
+
+        <!-- Let's copy what we just did and make another one -->
+        <!-- These 2 are stacking and we don't want that -->
+        <!-- We want them to be `in a "row"` so lets put them
+    `IN A "row"-->
+        <article class="col-4">
+
+            <!-- It needs a class of "card" -->
+            <div class="card">
+
+                <!-- Let's add a "card-img-top" or image cap -->
+                <img class="card-img-top" src="https://www.placecage.com/300/200" />
+
+                <!-- Let's make a "card-header" -->
+                <h3 class="card-header">Go back to your room</h3>
+
+                <!-- Let's mark the "card-body" content -->
+                <div class="card-body">
+                    <p>I go where I want.</p>
+                </div>
+
+            </div>
+
+        </article>
+
+    </section>
+<!-- <hr /> stands for horizontal rule -->
+    <hr /> 
+
+    <!-- This section will be where our JS places things -->
+    <section class="row makeup-content">
+    </section>
+
+
+    <!-- Including JS
+            JS files go at the bottom, so that way we can put up
+            a loading GIF, while the data loads.
+
+            Here is how we include JS files
+            <script src="[file location here]"></script>
+            
+            Here we are including the jquery library.
+         -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+    <!-- Here we are including our JS file -->
+    <script src="./main.js"></script>
+</body>
+
 </html>

@@ -1,4 +1,4 @@
-//Day 6
+//Day 7
 // JQuery
 //Helps out with Dom elements......they are a bitch apparently
 
